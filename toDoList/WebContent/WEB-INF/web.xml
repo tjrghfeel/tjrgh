@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>main</servlet-name>
+		<servlet-class>toDoList.toDoListMain</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>main</servlet-name>
+		<url-pattern>/toDoList</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>action</servlet-name>
+		<servlet-class>toDoList.listAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>action</servlet-name>
+		<url-pattern>/listAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>listAdd</servlet-name>
+		<servlet-class>toDoList.listAdd</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>listAdd</servlet-name>
+		<url-pattern>/listAdd</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>deleteList</servlet-name>
+		<servlet-class>toDoList.deleteList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteList</servlet-name>
+		<url-pattern>/deleteList</url-pattern>
+	</servlet-mapping>
+</web-app>
