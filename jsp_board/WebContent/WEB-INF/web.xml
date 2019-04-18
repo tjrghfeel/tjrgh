@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>mainPage</servlet-name>
+		<jsp-file>/main.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mainPage</servlet-name>
+		<url-pattern>/mainPage</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>loginPage</servlet-name>
+		<jsp-file>/loginPage.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>loginPage</servlet-name>
+		<url-pattern>/loginPage</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>loginAction</servlet-name>
+		<jsp-file>/loginAction.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>loginAction</servlet-name>
+		<url-pattern>/loginAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>joinPage</servlet-name>
+		<jsp-file>/joinPage.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>joinPage</servlet-name>
+		<url-pattern>/joinPage</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>joinAction</servlet-name>
+		<jsp-file>/joinAction.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>joinAction</servlet-name>
+		<url-pattern>/joinAction</url-pattern>
+	</servlet-mapping>
+</web-app>
